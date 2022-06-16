@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: rgba(40, 45, 53, 1);
+}
+
+.info--foto {
+    width: 60%;
+    margin-left: 60px;
+}
+.card{
+    border: black;
+    position: relative;
+    height: 530px;
+    width: 300px;
+    align-items: center;
+    background-color: #1A1B21 ;
+}
+.info > h1 {
+    color: white;
+}
+.info > h3 {
+    color: #F3BF99 ;
+    margin-left: 80px;
+}
+.info > h4 {
+    color: white;
+    margin-left: 70px;
+}
+.about > p {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer {
+    background-color: #161619 ;
+}
+.twitter {
+    margin-left: 80px;
+    padding-right: 5px;
+    margin-bottom: 4px;
+}
+.facebook, .instagram, .github {
+    padding: 5px;
+}
